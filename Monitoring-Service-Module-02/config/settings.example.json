@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "repository": {
+    "server": "REPLACE_WITH_APPROVED_MONITORING_SERVER",
+    "database": "DBA_Monitoring",
+    "driver": "ODBC Driver 18 for SQL Server",
+    "authentication": "WINDOWS",
+    "credential_reference": null,
+    "connection_timeout_seconds": 15,
+    "command_timeout_seconds": 30
+  },
+  "safety": {
+    "monitoring_enabled": false,
+    "production_collection_enabled": false,
+    "pilot_mode_enabled": true,
+    "email_enabled": false
+  },
+  "maximum_concurrent_connections": 2,
+  "paths": {
+    "log_directory": "runtime/logs",
+    "report_directory": "runtime/reports"
+  }
+}

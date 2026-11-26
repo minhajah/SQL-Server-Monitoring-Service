@@ -1,0 +1,4 @@
+# Only commit explicitly approved example files.
+*
+!.gitignore
+!settings.example.json
