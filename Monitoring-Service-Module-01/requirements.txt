@@ -1,0 +1,2 @@
+# Module 01 uses only the Python standard library.
+# External dependencies will be pinned when database connectivity is implemented.
